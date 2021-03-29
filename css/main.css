@@ -75,7 +75,7 @@
         }
         
         .left-bottom {
-            top: 300%;
+            top: 1930px;
             left: 0;
             width: 20%;
             /*display: none;*/
@@ -1493,7 +1493,7 @@
                 top: 60%;
             }
             .left-bottom {
-                top: 365%;
+                top: 1950px;
             }
             .nav-list {
                 padding-inline-end: 20px;
@@ -1524,7 +1524,7 @@
                 top: 20%;
             }
             .left-bottom {
-                top: 245%;
+                top: 2040px;
             }
             .main-content {
                 width: 50%;
