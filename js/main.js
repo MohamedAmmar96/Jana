@@ -179,4 +179,20 @@ $(document).ready(function() {
         $(".mo-nav").removeClass("menu-open");
     });
 
+
+
+    if ($(window).width() <= 991) {
+        $(".sub-menu .nav-link").click(function() {
+            $(this).toggleClass("rotate");
+            $(this).siblings(".sub-list").slideToggle(300);
+        });
+    }
+
+    if ($(window).width() <= 991) {
+        $(".sub-sub-menu .sub-link").click(function() {
+            $(this).toggleClass("rotate");
+            $(this).siblings(".sub-sub-list").slideToggle(300);
+        });
+    }
+
 });
